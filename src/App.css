@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code&display=swap'); */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,9 +13,7 @@ body {
     overflow: hidden;
 }
 
-/* =========================================
-   LANDING PAGE (Super Fixed & Isolated)
-   ========================================= */
+/* Landing Page */
 .landing-wrapper {
     position: fixed;
     top: 0;
@@ -76,9 +72,7 @@ body {
     cursor: pointer;
 }
 
-/* =========================================
-   DASHBOARD LAYOUT (Stable Flex)
-   ========================================= */
+/* Dashboard Layout */
 .app-wrapper {
     display: flex;
     flex-direction: column;
