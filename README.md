@@ -1,184 +1,56 @@
-<<<<<<< HEAD
-# 💻 CodeSync – Real-Time Collaborative Coding Platform
+# 💠 CodeSync: Next-Gen Collaborative Development Environment
 
-A full-stack real-time coding collaboration system built with React, Node.js, and Socket.io, allowing synchronized code editing, live communication, and session-based interaction between multiple users.
-
----
-
-# 🚀 Overview
-
-CodeSync is a real-time collaborative platform where users can join a shared room and work on the same code simultaneously. It is designed to simulate real-world coding environments such as pair programming, technical interviews, and peer learning sessions.
-
-Unlike traditional coding tools, CodeSync enables **active collaboration**, where all participants can edit, run, and discuss code in real time.
+**CodeSync** is a high-performance, web-based collaborative IDE engineered to eliminate the friction of remote pair programming. By integrating a modular code editor with real-time communication tools, it provides a seamless "Single-Window" experience for modern developers.
 
 ---
 
-# 🎯 Problem Statement
+## 🚀 The Vision
+In a world of remote work, developers often struggle with "Context Switching"—constantly jumping between VS Code, Zoom, and Slack. **CodeSync** bridges this gap by offering a synchronized ecosystem where coding, discussion, and execution happen simultaneously.
 
-Most platforms fall into two categories:
-
-* Coding platforms → single-user experience
-* Video tools → passive screen sharing
-
-There is a lack of systems that allow:
-
-* Real-time collaborative coding
-* Interactive learning
-* Interview-style environments
+> *"Empowering teams to build faster by bringing logic and communication under one roof."*
 
 ---
 
-# 💡 Solution
+## ✨ Core Features (Phase-1 Implementation)
 
-CodeSync bridges this gap by providing:
+### 🖥️ Professional IDE Interface
+* **Glassmorphism Design:** A premium Obsidian-dark theme with high-performance backdrop filters to ensure long-term visual comfort.
+* **State-Persistent File System:** A robust virtual explorer that allows managing multiple files (JSX, CSS, JS) without data loss during transitions.
+* **Integrated Logic Sandbox:** A real-time execution environment to test and debug code snippets instantly.
 
-* Live synchronized code editing
-* Multi-user collaboration
-* Integrated communication tools
-* Session-based interaction
-
----
-
-# ✨ Core Features
-
-## ⚡ Real-Time Code Synchronization
-
-* Multiple users can edit code simultaneously
-* Changes are instantly reflected across all clients
-* Built using WebSockets (Socket.io)
+### 🧑‍🤝‍🧑 Team Collaboration Suite
+* **Contextual Team Chat:** A dedicated, real-time messaging panel with smart alignment and automatic time-stamping for technical discussions.
+* **Secure Session Logic:** Dynamic 8-character Room ID generation to ensure private and isolated collaborative environments.
 
 ---
 
-## 🧑‍🤝‍🧑 Room-Based Sessions
+## ⚙️ Technical Architecture
 
-* Create or join rooms using unique IDs
-* Isolated sessions for each collaboration
-
----
-
-## ▶️ Code Execution
-
-* Run code directly from the editor
-* Display output in real time
+| Layer | Technology | Key Advantage |
+| :--- | :--- | :--- |
+| **Frontend** | **React.js v18** | High-speed UI updates using Virtual DOM. |
+| **Tooling** | **Vite** | Optimized HMR (Hot Module Replacement) for instant dev speed. |
+| **Styling** | **Custom CSS3** | Leveraging modern CSS variables for high-fidelity UI. |
+| **Components** | **Lucide Icons** | Lightweight and consistent vector design. |
 
 ---
 
-## 💬 Live Communication
+## 🔮 Roadmap: The Full-Stack Evolution
+CodeSync is currently in **Phase-1 (Stable Frontend)**. Our strategic roadmap for Phase-2 includes:
 
-* Built-in chat system
-* Enables discussion and explanation during sessions
-
----
-
-## ⏱️ Session Timer
-
-* Countdown timer for interview simulation
-* Helps create a structured coding environment
+* **⚡ Real-Time Engine:** Implementing **Socket.io** for live "Google Docs style" multi-user typing.
+* **☁️ Persistence:** Node.js and MongoDB integration for secure project storage and user authentication.
+* **▶️ Universal Compiler:** Leveraging the **Judge0 API** to support 20+ languages like Python, Java, and C++.
+* **🤖 AI Mentor:** Integrated LLM for automated bug detection and code optimization suggestions.
 
 ---
 
-## 🔄 Multi-User Interaction
+## 👨‍💻 The Development Team
+This project is the result of collaborative engineering by:
 
-* All users can:
-
-  * Write code
-  * Edit collaboratively
-  * Explain logic in real time
-
----
-
-# 🧠 System Architecture
-
-```
-Frontend (React)
-   ↓
-WebSocket Layer (Socket.io)
-   ↓
-Backend (Node.js + Express)
-   ↓
-In-Memory State (Rooms, Users, Code)
-```
+* **Om Prakash Sharma** — **Project Lead & UI Architect** *Defined the application lifecycle and engineered the Glassmorphism UI.*
+* **Bharat Sharma** — **Logic Architect & Core Developer** *Architected the state management and virtual file system logic.*
+* **Pankaj Kumar** — **System Designer & QA Lead** *Optimized modular component structure and handled quality assurance.*
 
 ---
-
-# 🔄 Application Workflow
-
-1. User opens the application
-2. Creates or joins a room
-3. Backend assigns a unique room ID
-4. Users connect via WebSocket
-5. Code editor synchronizes in real time
-6. Users collaborate and communicate
-7. Code execution is triggered
-8. Session ends when users leave
-
----
-
-# ⚙️ Tech Stack
-
-## Frontend
-
-* React.js
-* Tailwind CSS
-* Monaco Editor
-
-## Backend
-
-* Node.js
-* Express.js
-
-## Real-Time Communication
-
-* Socket.io (WebSockets)
-
-## State Management
-
-* In-memory storage (no database in current version)
-
----
-
-# 🔌 Real-Time Sync Mechanism
-
-1. User types in the editor
-2. Change is captured on frontend
-3. Sent to server via WebSocket
-4. Server broadcasts update to all users in the room
-5. Other clients update their editor instantly
-
----
-
-# 🧩 Key Concepts Used
-
-* Real-time communication (WebSockets)
-* Event-driven architecture
-* Shared state synchronization
-* Multi-user systems
-* Client-server communication
-
----
-
-# ⚠️ Current Limitations
-
-* No database (sessions are temporary)
-* No authentication system
-* No session persistence
-
----
-=======
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 27726be (Initial commit: CodeSync Professional Dashboard UI)
+**© 2026 | B.Tech Capstone Project - Phase 1 |
