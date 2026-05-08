@@ -49,7 +49,7 @@ CodeSync is currently in **Phase-1 (Stable Frontend)**. Our strategic roadmap fo
 This project is the result of collaborative engineering by:
 
 * **Om Prakash Sharma** — **Project Lead & UI Architect** *Defined the application lifecycle and engineered the Glassmorphism UI.*
-* **Bharat Sharma** — **Logic Architect & Core Developer** *Architected the state management and virtual file system logic.*
+* **Bharat Sharma** — **Logic Architect & Core Developer** *Built the logic for handling state and virtual files.*
 * **Pankaj Kumar** — **System Designer & QA Lead** *Made the code well-structured and ensured it works properly.*
 
 ---
