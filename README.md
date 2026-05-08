@@ -50,7 +50,7 @@ This project is the result of collaborative engineering by:
 
 * **Om Prakash Sharma** — **Project Lead & UI Architect** *Defined the application lifecycle and engineered the Glassmorphism UI.*
 * **Bharat Sharma** — **Logic Architect & Core Developer** *Architected the state management and virtual file system logic.*
-* **Pankaj Kumar** — **System Designer & QA Lead** *Optimized modular component structure and handled quality assurance.*
+* **Pankaj Kumar** — **System Designer & QA Lead** *Made the code well-structured and ensured it works properly.*
 
 ---
 **© 2026 | B.Tech Capstone Project - Phase 1 |
