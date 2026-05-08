@@ -7,7 +7,7 @@
 ## 🚀 The Vision
 In a world of remote work, developers often struggle with "Context Switching"—constantly jumping between VS Code, Zoom, and Slack. **CodeSync** bridges this gap by offering a synchronized ecosystem where coding, discussion, and execution happen simultaneously.
 
-> *"Empowering teams to build faster by bringing logic and communication under one roof."*
+> *"Making teamwork faster by combining logic and communication in one place."*
 
 ---
 
